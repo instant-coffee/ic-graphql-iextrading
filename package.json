@@ -1,0 +1,13 @@
+{
+  "name": "ic-graphql-iextrading",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:instant-coffee/ic-graphql-iextrading.git",
+  "author": "Lachlan MacKenzie <lachlanrm@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0",
+    "express": "^4.16.3"
+  }
+}
