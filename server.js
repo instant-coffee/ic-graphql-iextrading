@@ -4,7 +4,10 @@ import graphqlHTTP from "express-graphql";
 const app = express()
 const PORT = 4001
 
+import schema from "./schema";
+
 app.use('/graphql', graphqlHTTP({
+  schema,
   graphiql: true
 }))
 
